@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work Folder\\Git\\TestProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\readme.cmd||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\readme.cmd||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\model\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\model\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\views\\employeeverificationform.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\views\\employeeverificationform.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\controllers\\employmentverifycontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\controllers\\employmentverifycontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|c:\\work folder\\git\\testproject\\testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9651128E-87BF-4452-AA57-5D1F3E9E4DEE}|TestProject\\TestProject.csproj|solutionrelative:testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.cmd",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\README.cmd",
+              "RelativeDocumentMoniker": "TestProject\\README.cmd",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\README.cmd",
+              "RelativeToolTip": "TestProject\\README.cmd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2024-10-10T10:13:51.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Model\\DbContext.cs",
+              "RelativeDocumentMoniker": "TestProject\\Model\\DbContext.cs",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Model\\DbContext.cs",
+              "RelativeToolTip": "TestProject\\Model\\DbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:08:41.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeVerificationForm.html",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Views\\EmployeeVerificationForm.html",
+              "RelativeDocumentMoniker": "TestProject\\Views\\EmployeeVerificationForm.html",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Views\\EmployeeVerificationForm.html",
+              "RelativeToolTip": "TestProject\\Views\\EmployeeVerificationForm.html",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAUwMAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-09T14:53:17.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Program.cs",
+              "RelativeDocumentMoniker": "TestProject\\Program.cs",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Program.cs",
+              "RelativeToolTip": "TestProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:41:26.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "TestProject\\Model\\Employee.cs",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Model\\Employee.cs",
+              "RelativeToolTip": "TestProject\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:38:14.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmploymentVerifyController .cs",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Controllers\\EmploymentVerifyController .cs",
+              "RelativeDocumentMoniker": "TestProject\\Controllers\\EmploymentVerifyController .cs",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Controllers\\EmploymentVerifyController .cs",
+              "RelativeToolTip": "TestProject\\Controllers\\EmploymentVerifyController .cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:35:25.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TestProject\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TestProject\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:34:10.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestProject.csproj",
+              "DocumentMoniker": "C:\\Work Folder\\Git\\TestProject\\TestProject\\TestProject.csproj",
+              "RelativeDocumentMoniker": "TestProject\\TestProject.csproj",
+              "ToolTip": "C:\\Work Folder\\Git\\TestProject\\TestProject\\TestProject.csproj",
+              "RelativeToolTip": "TestProject\\TestProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T14:31:03.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAAAJMBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-09T14:27:59.211Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

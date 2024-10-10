@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+            button:hover {
+                background-color: #218838;
+            }
+
+        .result {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+        }
+
+        .data-container {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        #data-table {
+            width: 100%;
+            border-collapse: collapse;
+            display: none; /* Initially hide the table */
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Employment Verification</h2>
+    <div class="form-container" style="float:left">
+        <form id="verificationForm">
+            <label for="employeeId">Employee ID:</label>
+            <input type="number" id="employeeId" required>
+
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" required>
+
+            <label for="verificationCode">Verification Code:</label>
+            <input type="text" id="verificationCode" required>
+
+            <button type="submit">Verify Employment</button>
+        </form>
+    </div>
+
+    <div class="result" id="result"></div>
+    <div class="error" id="error"></div>
+
+    <div class="data-container" style="float:right">
+        <h2 id="load-data">Employees</h2>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Verification Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamic content will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.getElementById('verificationForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const employeeId = document.getElementById('employeeId').value;
+            const companyName = document.getElementById('companyName').value;
+            const verificationCode = document.getElementById('verificationCode').value;
+
+            const payload = {
+                employeeId: Number(employeeId),
+                companyName: companyName,
+                verificationCode: verificationCode,
+            };
+
+            try {
+                const response = await fetch('https://localhost:7043/api/verify-employment', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(payload),
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const data = await response.json();
+                const resultDiv = document.getElementById('result');
+                const errorDiv = document.getElementById('error');
+                errorDiv.textContent = '';
+                resultDiv.textContent = data.verified ? "Verified" : "Not Verified";
+            } catch (error) {
+                document.getElementById('error').textContent = "Error occurred during verification. Please try again.";
+                document.getElementById('result').textContent = '';
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const tableBody = document.querySelector("#data-table tbody");
+            tableBody.innerHTML = ''; // Clear previous content
+            fetch("https://localhost:7043/api/employees")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data); // Log the data to inspect its structure
+                    if (data['employees']) {
+                        data['employees'].forEach(employee => {
+                            const row = document.createElement("tr");
+
+                            const idCell = document.createElement("td");
+                            idCell.textContent = employee.id;
+                            row.appendChild(idCell);
+
+                            const nameCell = document.createElement("td");
+                            nameCell.textContent = employee.employeeName;
+                            row.appendChild(nameCell);
+
+                            const companyNameCell = document.createElement("td");
+                            companyNameCell.textContent = employee.companyName;
+                            row.appendChild(companyNameCell);
+
+                            const verificationCodeCell = document.createElement("td");
+                            verificationCodeCell.textContent = employee.verificationCode;
+                            row.appendChild(verificationCodeCell);
+
+                            tableBody.appendChild(row);
+                        });
+                        document.getElementById("data-table").style.display = 'table'; // Show the table
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching data:", error);
+                });
+        });
+    </script>
+</body>
+</html>
